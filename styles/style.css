@@ -200,6 +200,62 @@ html {
     color: white;
     padding: 20px;
 }
+.formation_competences {
+    display: flex;
+}
+
+.formation {
+    border-right: 2px solid #fff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.formation hr,
+.competences hr {
+    margin: 15px;
+}
+
+.formation h2,
+.competences h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+}
+
+.formation h3,
+.competences h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+}
+.formation p,
+.competences p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.formation img {
+    width: 40%;
+}
+
+.competences {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.competences h3 {
+    margin: 10px 0;
+}
+
+.logo_comp {
+    margin-top: 10px;
+}
 
 /* Section Portfolio */
 
@@ -222,7 +278,7 @@ html {
 .gallery img {
     width: 360px;
     height: 240px;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-bottom: 10px;
 }
 
@@ -238,7 +294,7 @@ html {
     position: absolute;
     height: 99%;
     width: 100%;
-    left: -10px;
+    left: -20px;
     top: -10px;
     bottom: 0;
     right: 0;
