@@ -1,0 +1,56 @@
+/* Navbar */
+.navbar .logo {
+    margin-left: 10px;
+}
+
+/* Accueil */
+
+#home {
+    height: 820px;
+}
+
+.headings {
+    font-size: 1.7rem;
+}
+
+/* A propos */
+#pic img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 40%;
+}
+
+#intro h2 {
+    font-size: 1.5rem;
+}
+
+/* Portefolio */
+
+.gallery img {
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+
+/* Contact */
+
+.form {
+    width: 100%;
+}
+
+.input {
+    width: 80%;
+}
+
+#msg {
+    width: 70%;
+}
+
+#send {
+    width: 30%;
+}
+
+.map {
+    width: 100%;
+}
