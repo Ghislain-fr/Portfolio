@@ -43,7 +43,6 @@ use \Mailjet\Resources;
         }
 
     }else {
-        header('Location: https://knittelghislain.netlify.app/');
-        die();
+        echo "Email envoyé avec succes";
     }
     
