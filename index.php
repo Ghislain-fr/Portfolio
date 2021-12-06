@@ -205,11 +205,11 @@
     <section id="contact">
         <h1 class="headings">CONTACT</h1>
         <div class="test-contact">
-            <form action="" class="form">
+            <form action="contact.php" method="POST" class="form">
                 <input type="text" name="name" class="input" placeholder="Entrez votre nom">
                 <input type="email" name="email" class="input" placeholder="Entrez votre Email">
-                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Entrez votre message"></textarea>
-                <input type="submit" value="Envoyer" id="send">
+                <textarea name="message" id="msg" cols="30" rows="10" placeholder="Entrez votre message"></textarea>
+                <input type="submit" name="envoyer" value="Envoyer" id="send">
             </form>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2635.1726381877315!2d6.152535274122543!3d48.6639409934756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4794a270f3692413%3A0xe352bca98a125660!2s98%20Rue%20de%20la%20Grande%20Corv%C3%A9e%2C%2054600%20Villers-l%C3%A8s-Nancy!5e0!3m2!1sfr!2sfr!4v1632085482086!5m2!1sfr!2sfr"
