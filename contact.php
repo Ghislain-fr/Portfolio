@@ -43,7 +43,7 @@ use \Mailjet\Resources;
         }
 
     }else {
-        header('Location:index.php');
+        header('Location:index.html');
         die();
     }
     
