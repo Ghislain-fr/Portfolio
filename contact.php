@@ -43,6 +43,6 @@ use \Mailjet\Resources;
         }
 
     }else {
-        echo "Email envoyé avec succes";
+        die();
     }
     
