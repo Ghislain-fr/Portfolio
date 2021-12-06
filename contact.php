@@ -43,7 +43,7 @@ use \Mailjet\Resources;
         }
 
     }else {
-        header('Location: index.html');
+        header('Location: https://knittelghislain.netlify.app/');
         die();
     }
     
